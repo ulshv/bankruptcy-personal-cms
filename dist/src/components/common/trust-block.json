@@ -1,0 +1,24 @@
+{
+    "collectionName": "components_common_trust_blocks",
+    "info": {
+        "displayName": "TrustBlock",
+        "icon": "apps"
+    },
+    "options": {},
+    "attributes": {
+        "Title": {
+            "type": "string"
+        },
+        "Subtitle": {
+            "type": "string"
+        },
+        "Image": {
+            "allowedTypes": [
+                "files",
+                "images"
+            ],
+            "type": "media",
+            "multiple": false
+        }
+    }
+}

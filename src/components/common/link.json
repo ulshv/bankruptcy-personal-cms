@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_common_links",
+  "info": {
+    "displayName": "Link"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "text"
+    }
+  }
+}

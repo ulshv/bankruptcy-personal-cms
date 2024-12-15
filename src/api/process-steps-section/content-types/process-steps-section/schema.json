@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "process_steps_sections",
+  "info": {
+    "singularName": "process-steps-section",
+    "pluralName": "process-steps-sections",
+    "displayName": "ProcessStepsSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SectionTitle": {
+      "type": "string"
+    },
+    "ProcessSteps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.process-step"
+    }
+  }
+}

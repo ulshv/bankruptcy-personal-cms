@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "win_cases",
+  "info": {
+    "singularName": "win-case",
+    "pluralName": "win-cases",
+    "displayName": "WinCase",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "UserName": {
+      "type": "string",
+      "required": true
+    },
+    "City": {
+      "type": "string",
+      "required": true
+    },
+    "DebtAmount": {
+      "type": "integer"
+    },
+    "ProofDocument": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Debts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.text-component"
+    },
+    "Properties": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.text-component"
+    },
+    "UserAvatar": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

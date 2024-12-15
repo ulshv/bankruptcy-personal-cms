@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "review_sections",
+  "info": {
+    "singularName": "review-section",
+    "pluralName": "review-sections",
+    "displayName": "ReviewSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SectionTitle": {
+      "type": "string"
+    },
+    "Reviews": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::review.review"
+    }
+  }
+}

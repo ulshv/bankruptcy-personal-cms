@@ -1,0 +1,23 @@
+{
+    "kind": "singleType",
+    "collectionName": "faq_sections",
+    "info": {
+        "singularName": "faq-section",
+        "pluralName": "faq-sections",
+        "displayName": "FaqSection"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "SectionTitle": {
+            "type": "string"
+        },
+        "FaqBlocks": {
+            "type": "component",
+            "repeatable": true,
+            "component": "common.faq-block"
+        }
+    }
+}

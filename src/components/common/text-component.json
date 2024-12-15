@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_common_text_components",
+  "info": {
+    "displayName": "TextComponent",
+    "icon": ""
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    }
+  }
+}

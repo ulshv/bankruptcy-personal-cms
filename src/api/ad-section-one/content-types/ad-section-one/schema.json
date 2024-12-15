@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "ad_section_ones",
+  "info": {
+    "singularName": "ad-section-one",
+    "pluralName": "ad-section-ones",
+    "displayName": "AdSectionOne"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Subtitle": {
+      "type": "text"
+    },
+    "ActionButtonText": {
+      "type": "string"
+    },
+    "ActionButtonLink": {
+      "type": "text"
+    }
+  }
+}

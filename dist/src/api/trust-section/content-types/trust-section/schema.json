@@ -1,0 +1,20 @@
+{
+    "kind": "singleType",
+    "collectionName": "trust_sections",
+    "info": {
+        "singularName": "trust-section",
+        "pluralName": "trust-sections",
+        "displayName": "TrustSection"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "TrustBlock": {
+            "type": "component",
+            "repeatable": true,
+            "component": "common.trust-block"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "links_sections",
+  "info": {
+    "singularName": "links-section",
+    "pluralName": "links-sections",
+    "displayName": "LinksSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Block1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.link"
+    },
+    "Block2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.link"
+    },
+    "Block3": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.link"
+    },
+    "Block4": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.link"
+    }
+  }
+}
