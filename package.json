@@ -4,7 +4,7 @@
   "private": true,
   "description": "A Strapi application",
   "scripts": {
-    "//comment": "if fails on the server --- https://github.com/strapi/strapi/issues/12137, https://docs.strapi.io/dev-docs/cli#strapi-build",
+    "//comment": "if fails on the server --- create or increase swap memory size",
     "build": "strapi build",
     "deploy": "strapi deploy",
     "develop": "strapi develop",
