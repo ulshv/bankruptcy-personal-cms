@@ -4,7 +4,8 @@
   "private": true,
   "description": "A Strapi application",
   "scripts": {
-    "build": "strapi build",
+    "//comment": "https://github.com/strapi/strapi/issues/12137",
+    "build": "strapi build --no-optimization",
     "deploy": "strapi deploy",
     "develop": "strapi develop",
     "start": "strapi start",
