@@ -121,8 +121,8 @@ coverage
 # Strapi
 ############################
 
-# dist
-# build
+dist
+build
 .env
 license.txt
 exports
@@ -130,7 +130,3 @@ exports
 
 .strapi-updater.json
 .strapi-cloud.json
-
-!dist
-!dist/tsconfig.tsbuildinfo
-!dist/build
